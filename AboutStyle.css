@@ -1,0 +1,50 @@
+body{
+    background-color: #414a4c;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+nav{
+    font-family: 'Nunito Sans', sans-serif;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type:  none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+     
+}
+.brand img{
+    width: 60px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+.head{
+     color: white;
+     font-family: 'Varela Round',sans-serif;
+     padding: 20px;
+}
+.main{
+    color: white;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: green;
+     
+}
+
